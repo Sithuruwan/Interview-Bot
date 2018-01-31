@@ -29,12 +29,12 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'Tensorflow_Chatbot.urls'
+ROOT_URLCONF = 'InterviewBot.urls'
 
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['Tensorflow_Chatbot/Views',]
+        'DIRS': ['InterviewBot/Views',]
         ,
         'APP_DIRS': True,
         'OPTIONS': {
@@ -48,7 +48,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'Tensorflow_Chatbot.wsgi.application'
+WSGI_APPLICATION = 'InterviewBot.wsgi.application'
 
 
 # Database
@@ -93,5 +93,5 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
-    '/Users/sithu/Documents/PycharmProject/Tensorflow_Chatbot/static',
+    '/Users/sithu/Documents/PycharmProject/InterviewBot/static',
 ]

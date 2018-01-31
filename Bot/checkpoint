@@ -1,2 +1,2 @@
-model_checkpoint_path: "C:/Users/sithu/Documents/Pycharm/Tensorflow-Chatbot/Bot/model.tflearn"
-all_model_checkpoint_paths: "C:/Users/sithu/Documents/Pycharm/Tensorflow-Chatbot/Bot/model.tflearn"
+model_checkpoint_path: "C:/Users/sithu/Documents/Pycharm/Interview-Bot/Bot/model.tflearn"
+all_model_checkpoint_paths: "C:/Users/sithu/Documents/Pycharm/Interview-Bot/Bot/model.tflearn"
